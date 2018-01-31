@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>London's Spectacular Website</title>
+        <style>
+            body {
+                background: green;
+                color: white;
+                padding: 10px;
+                font-family: helvetica;
+            }
+            header {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+            [id=all-contents] {
+                max-width: 800px;
+                margin: auto;
+            }
+    
+            /* navigation menu */
+            nav {
+                background: rgb(163, 255, 195);
+                margin: 0 auto;
+                margin-bottom: 20px;
+                display: flex;
+                padding: 10px;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(163, 255, 195);
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
+    
+            /* main container area beneath menu */
+            main {
+                background: rgb(163, 255, 195);
+                display: flex;
+            }
+            [class=sidebar] {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            [class=sidebar] img {
+                width: 200px;
+            }
+            [class=content] {
+                flex: 1;
+                padding: 15px;
+                color: rgb(163, 255, 195);
+            }
+            [class=interests] header {
+                font-size: 1.25em;
+            }
+            p{
+                font-family:helvetica;
+                color:rgb(163, 255, 195);
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div id="all-contents">
+            <nav>
+                <header>London's Spectacular Website</header>
+                <ul>
+                     <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </nav>
+            
+            <main>
+                <div class="sidebar">
+                    <img src="https://i.ytimg.com/vi/SNggmeilXDQ/maxresdefault.jpg"
+                </div>
+                
+                <div class="content">
+                    <header>London L'Hoste-Larson</header>
+                    <p>Student at Ben Franklin High School</p>
+                    <section class="What I do:">
+                        <header>
+                            <ul>
+                                <li>Sailing</li>
+                                <li>School</li>
+                                <li>Work at a Flower Shop</li>
+                            </ul>
+                        </header>
+                    </section>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
